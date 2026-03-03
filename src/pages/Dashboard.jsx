@@ -7,8 +7,6 @@ import Skeleton from "../components/common/Skeleton.jsx";
 function Dashboard() {
   const [loading, setLoading] = useState(true);
 
-  console.log(loading);
-
   useEffect(() => {
     const interval = setTimeout(() => {
       setLoading(false);
