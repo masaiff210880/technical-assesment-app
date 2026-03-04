@@ -9,6 +9,7 @@ import Support from "./pages/Support.jsx";
 import Settings from "./pages/Settings.jsx";
 import Shedule from "./pages/Shedule.jsx";
 import Notifications from "./pages/Notification.jsx";
+import NotFound from "./pages/404NotFound.jsx";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/schedule" element={<Shedule />} />
           <Route path="/notifications" element={<Notifications />} />
         </Route>
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
