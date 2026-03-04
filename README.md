@@ -6,6 +6,10 @@ For styling, I have used Tailwind CSS. It helps to quickly build UI, manage resp
 
 Theme switching (light and dark mode) is implemented using React Context API. The theme is managed globally so it works across the entire app without prop drilling.
 
+Tech Stack : React Vite , Tailwind CSS , Vercel
+
+Live Url : https://technical-assesment-4hiz4brlb-ramsurat0880s-projects.vercel.app/
+
 The layout is divided into three main sections:
 
 - Sidebar
