@@ -9,6 +9,8 @@ Theme switching (light and dark mode) is implemented using React Context API. Th
 Tech Stack : React Vite , Tailwind CSS , Vercel
 
 Live Url : https://technical-assesment-4hiz4brlb-ramsurat0880s-projects.vercel.app/
+Loom Video : https://www.loom.com/share/4882923b57674796b680fb2a3bb71b38
+
 
 The layout is divided into three main sections:
 
